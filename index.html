@@ -4,11 +4,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Kuru Kuru~</title>
-    <meta name="description" content="The website for Herta, the cutest genius Honkai: Star Rail character out there.">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <meta name="description" content="Вебсайт, посвященный куру-мему с Рингото-кун">
     <meta name="keywords" content="Kuru2, Kuru Kuru, Kuru Kuru herta, kuru kuru herta hsr, kuru kuru herta star rail, herta honkai star rail, herta, herta hsr, star rail herta">
     <link rel="canonical" href="https://herta.eu.org" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="stylesheet" href="style.css?v=2" type="text/css" />
+    <link rel="stylesheet" href="style.css?ver=2" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
@@ -17,25 +18,24 @@
 </head>
 
 <body>
-    <img src="img/kuruuin1.png" class="preload" />
-    <img src="img/kuruuin2.png" class="preload" />
+    <img src="img/kuruuinbig1.png" class="preload" />
+    <img src="img/kuruuinbig2.png" class="preload" />
     <div id="content">
-        <h1>Kuru Kuru~</h1>
+        <h1>Kuru Kuru~<img src="img/kurutext.png" height="85"/></h1>
         <hr id="subtitle-seperator" />
         <h2>
-            The website for Herta, the cutest genius Honkai:
-            Star Rail character out there.
+            Вебсайт, посвященный куру-мему с Рингото-кун
         </h2>
         <div id="counter-container">
-            <p>The kuru~ has been squished</p>
+            <p>Куру-куру~ был жамкнут</p>
             <br />
             <br />
             <p id="counter">0</p>
             <br />
             <br />
-            <p id="counter-times">times</p>
+            <p id="counter-times">раз</p>
             <button id="counter-button" onclick="counterClick()">
-                Squish the kuru~!
+                Жамкнуть куру-куру~!
             </button>
         </div>
         <hr />
@@ -46,21 +46,29 @@
         </div>
     </div>
     <div id="footer">
-        <img id="herta-card" loading="lazy" src="img/card.webp" alt="herta" />
+        <img id="herta-card" loading="lazy" src="img/card.png" alt="herta" />
         <div id="footer-text">
-            <p>Herta gif made by</p>
+            <p>Автор гиф куру-Рин:</p>
             <p>
-                <a href="https://twitter.com/Seseren_kr" target="_blank"><iconify-icon icon="mdi:twitter"
+                <a href="https://vk.com/4nge7" target="_blank"><iconify-icon icon="mdi:vk"
                         id="twitter-footer-icon" class="footer-icon"></iconify-icon><span
-                        class="footer-icon-text">@Seseren_kr</span></a>
+                        class="footer-icon-text">sonyangel</span></a>
             </p>
             <p id="footer-repository-text">
-                You can check out the GitHub repository here:
+                Ссылочки на Рингото-кун:
             </p>
             <p>
-                <a href="https://github.com/caliphdev/herta_kuru" target="_blank"><iconify-icon icon="mdi:github"
+                <a href="https://ringoto-kun.carrd.co" target="_blank"><iconify-icon icon="mingcute:link-fill"
                         id="github-footer-icon" class="footer-icon"></iconify-icon><span
-                        class="footer-icon-text">herta_kuru repo</span></a>
+                        class="footer-icon-text">Туть</span></a>
+            </p>
+            <p id="footer-repository-text">
+                Сайт склепал:
+            </p>
+            <p>
+                <a href="https://toshta.ru" target="_blank"><iconify-icon icon="mingcute:link-fill"
+                        id="github-footer-icon" class="footer-icon"></iconify-icon><span
+                        class="footer-icon-text">EvilToaster</span></a>
             </p>
         </div>
     </div>
@@ -101,7 +109,7 @@
     
     function displayCounter(value) {
         counterElement.innerText = value.toLocaleString();
-        counterTimesElement.innerText = value === 1 ? "time" : "times";
+        counterTimesElement.innerText = value === 1 ? "time" : "раз";
     }
 
     function playKuru() {
@@ -126,9 +134,9 @@
         var counter_button = document.getElementById("counter-button");
         var id = null;
 
-        var random = Math.floor(Math.random() * 2) + 1;
+        var random = Math.floor(Math.random() * 4) + 1;
         var elem = document.createElement("img");
-        elem.src = `img/kuruuin${random}.png`;
+        elem.src = `img/kuruuinbig${random}.png`;
         elem.style.position = "absolute";
         elem.style.right = "-510px";
         elem.style.top = counter_button.getClientRects()[0].bottom + scrollY - 430 + "px"

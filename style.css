@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #9d88d3;
+    background-color: #6c982a;
     font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
     color: white;
@@ -21,6 +21,10 @@ body {
 #content {
     margin: 2vh auto;
     width: 80vw;
+    /*background-image: url("./img/kuruuinbig2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 310px;*/
 }
 
 h1 {
@@ -53,16 +57,16 @@ hr {
 }
 
 #counter-container > p {
-    text-shadow: #9d88d3 0 0 10px,#9d88d3 0 0 10px,#9d88d3 0 0 10px,#9d88d3 0 0 10px,#9d88d3 0 0 10px;
+    text-shadow: #6c982a 0 0 10px,#6c982a 0 0 10px,#6c982a 0 0 10px,#6c982a 0 0 10px,#6c982a 0 0 10px;
 }
 
 #counter {
-    color: #574f84;
+    color: #53751f;
     font-size: 2em;
 }
 
 #counter-button {
-    background-color: #574f84;
+    background-color: #53751f;
     border: none;
     border-radius: 16px;
     color: white;
@@ -75,7 +79,7 @@ hr {
 }
 
 #counter-button:hover {
-    background-color: #2d2463;
+    background-color: #415c17;
 }
 
 #footer {
@@ -117,11 +121,12 @@ hr {
     vertical-align: middle;
     font-weight: bold;
     margin-left: 6px;
+    color: #6c982a;
 }
 
 #footer-repository-text {
-    margin-top: 32px;
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 7px;
 }
 
 @media screen and (max-width: 2240px) {
@@ -165,7 +170,7 @@ hr {
     }
 
     #footer-repository-text {
-        margin-top: 16px;
+        margin-top: 14px;
         margin-bottom: 8px;
     }
 }
@@ -207,6 +212,10 @@ hr {
         width: calc(100% - 10px);
     }
 }
+
+a, u {
+    text-decoration: none;
+  }
 
 @media screen and (max-width: 430px) {
     h1 {

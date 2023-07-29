@@ -1,6 +1,6 @@
-# herta kuru
-[Home Page](https://herta.vercel.app)
+# ringoto kuru
+[Home Page](https://kuru.toshta.ru/)
 
-The website for Herta, the cutest genius Honkai: Star Rail character out there!
+Kuru~ meme with [Ringoto-kun](https://ringoto-kun.carrd.co/)
 
-Herta gif and art made by [@Seseren_kr](https://twitter.com/Seseren_kr)
+Kuru~ Rin gif and art made by [sonyangel47](https://vk.com/4nge7)
