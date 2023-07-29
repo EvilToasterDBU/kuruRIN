@@ -4,8 +4,8 @@ const CACHE_NAME = "herta_cache";
 const urlsToCache = [
   "/",
   "/style.css",
-  "/img/hertaa1.webp",
-  "/img/hertaa2.webp",
+  "/img/kuruuin1.png",
+  "/img/kuruuin2.png",
   "/img/card.webp",
   "/audio/kuruto.mp3",
   "/audio/kuru1.mp3",
